@@ -178,6 +178,10 @@ body {
 }
 
 /* Title & Radio Input Section */
+.payment-title {
+margin-top: 5em;
+}
+
 .container-radio label {
     position: relative;
 }
@@ -239,9 +243,37 @@ input[type="radio"]:checked + label span.radio::before {
 /* /Title & Radio Input Section */
 
 /* Purchase Plans Section */
+.plan.left {
+    border: 1px solid #E6E6E7;
+    float: left;
+    width: calc(100% / 3 - 4em / 3);
+    height: 40em;
+    margin-top: 1.3em;
+    margin-right: 2em;
+    margin-bottom: 1em;
+}
 
+.plan.left.c-3{
+    margin-right: 0;
+}
 
+h6 {
+    margin-top: 1em;
+    text-align: center;
+    font-weight: 500;
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    border-bottom: 1px solid #E6E6E7;
+}
 
+.far.fa-user::before,
+.far.fa-building::before,
+.fab.fa-dropbox::before,
+.far.fa-folder::before,
+.fas.fa-pencil-alt::before {
+    margin-right: 0.3em;
+    color: #4A4A4A;
+}
 
 
 
@@ -251,7 +283,7 @@ input[type="radio"]:checked + label span.radio::before {
 
 
 
-
+/*  */
 
 
 
