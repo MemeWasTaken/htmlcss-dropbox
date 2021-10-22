@@ -34,7 +34,7 @@ body {
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 1400px;
     background-color: white;
 }
 
@@ -137,8 +137,6 @@ body {
     padding-bottom: 1.8em;
 }
 
-
-
 .jumbo-c.right {
     width: 65%;
 }
@@ -165,7 +163,96 @@ body {
 }
 
 .fas.fa-arrow-down {
+    color: black;
     margin-top: 1em;
     font-size: 2.3em; 
-    color: black;
 }
+/* /Header Section */
+
+/* Main Section */
+.container-main {
+    border: 1px solid chartreuse;
+    width: 65%;
+    height: 1400px;
+    margin: 0 auto;
+}
+
+/* Title & Radio Input Section */
+.container-radio label {
+    position: relative;
+}
+  
+.container-radio span::before,
+.container-radio span::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+#radio-1,
+#radio-2 {
+    opacity: 0;
+}
+  
+.container-radio span.radio:hover {
+    cursor: pointer;
+}
+
+.container-radio span.radio::before {
+    left: -22px;
+    width: 15px;
+    height: 15px;
+    background-color: #ffffff;
+    border: 1px solid #DBDBDD;
+    border-radius: 50px;
+}
+
+.container-radio span.radio::after {
+    left: -19px;
+    top: 0px;
+    width: 9px;
+    height: 9px;
+    border-radius: 10px;
+    transition: left 0.25s, background-color 0.25s;
+}
+
+input[type="radio"]:checked + label span.radio::after {
+    left: -18px;
+    background-color: #0061FF;
+}
+
+input[type="radio"]:checked + label span.radio::before {
+    border: 1px solid #0061FF;
+}
+
+.float {
+    float: left;
+    margin-left: 0.3em;
+    margin-top: 0.3em;
+}
+
+.float.r-1 {
+    margin-right: 1em;
+}
+/* /Title & Radio Input Section */
+
+/* Purchase Plans Section */
+
+
+
+
+
+
+/* /Purchase Plans Section */
+
+
+
+
+
+
+
+
+
+/* /Main Section */
