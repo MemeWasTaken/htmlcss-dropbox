@@ -310,6 +310,24 @@ h6 {
     margin: 2em 0;
 }
 
+.btn-free-trial,
+.btn-free-trial:hover,
+.btn-free-trial:active,
+.btn-free-trial:focus {
+    background-color: rgba(0, 97, 255, 1);
+    color: white;
+    display: inline-block;
+    text-align: center;
+    font-size: 80%;
+    width: 100%;
+    padding: 0.8em 4em;
+    text-decoration: none;
+}
+
+.btn-free-trial:hover {
+    background-color: rgba(0, 97, 255, 0.7);
+}
+
 .col-info {
     margin: 0.7em 0;
 }
@@ -328,14 +346,14 @@ h6 {
     width: 90%;
 }
 
-.btn-center {
+/* .btn-center {
     width: 100%;
     margin: 0 auto;
 }
 
 .btn-col-txt {
     padding: 0.4em 3.96em;
-}
+} */
 
 .or-buy-now {
     margin-top: 2em;
@@ -357,6 +375,40 @@ h6 {
 .des-title {
     margin-top: 4em;
     font-weight: 800;
+}
+
+.plan.bottom {
+    float: left;
+    border: 1px solid #E6E6E7;
+    width: 100%;
+    /* height: 10em; */
+    margin-top: 1.3em;
+}
+
+.align {
+    width: 95%;
+    margin: 1.5em auto;
+}
+
+.edu {
+    float: left;
+}
+
+.edu.text {
+    width: 70%;
+}
+
+.edu.btn {
+
+    width: 30%;
+}
+
+.info-edu {
+    margin-top: 1.8em;
+}
+
+.edu-btn {
+    margin-top: 1em;
 }
 
 /* /Purchase Plans Section */
