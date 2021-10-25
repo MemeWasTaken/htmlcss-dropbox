@@ -316,7 +316,11 @@ h6 {
 }
 
 .txt-right {
-    width: 92%;
+    width: 90%;
+}
+
+.button.col-b {
+    margin-left: 1.3em;
 }
 /* /Purchase Plans Section */
 
