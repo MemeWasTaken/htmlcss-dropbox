@@ -173,7 +173,7 @@ body {
 .container-main {
     border: 1px solid chartreuse;
     width: 65%;
-    height: 1400px;
+    height: 2000px;
     margin: 0 auto;
 }
 
@@ -399,7 +399,6 @@ h6 {
 }
 
 .edu.btn {
-
     width: 30%;
 }
 
@@ -407,14 +406,50 @@ h6 {
     margin-top: 1.8em;
 }
 
-.edu-btn {
-    margin-top: 1em;
-}
-
 /* /Purchase Plans Section */
 
+.ask-help {
+    float: left;
+    width: 50%;
+    margin-top: 8em;
+}
 
+.img-ask-help {
+    width: 100%;
+}
 
+.ask-help.dx {
+    padding: 2em 0 0 2em;
+}
+
+.find-partner-info {
+    margin-top: 1.6em;
+    margin-bottom: 1.6em;
+    line-height: 1.8em;
+}
+
+.btn-find-partner,
+.btn-find-partner:hover,
+.btn-find-partner:active,
+.btn-find-partner:focus {
+    border: 1px solid black;
+    color: black;
+    display: inline-block;
+    text-align: center;
+    font-size: 100%;
+    font-weight: 500;
+    padding: 0.8em 1em;
+    text-decoration: none;
+}
+
+.btn-find-partner:hover {
+
+}
+
+.title-ask-help {
+    font-size: 150%;
+    font-weight: 700;
+}
 
 
 /*  */
