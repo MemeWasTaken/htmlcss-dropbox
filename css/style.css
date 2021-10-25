@@ -275,8 +275,38 @@ h6 {
     color: #4A4A4A;
 }
 
+.col-txt {
+    border: 1px solid rgba(0, 0, 255, 0.3);
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 2em;
+}
 
+.price {
+    margin-top: 0.8em;
+}
 
+.frequency {
+    color: #7A8793;
+    margin-top: 0.4em;
+}
+
+.no-style-type {
+    list-style-type: none;
+}
+
+.size-sml {
+    font-size: smaller;
+}
+
+.no-style-type.size-sml {
+    margin: 1em 0;
+}
+
+.col-info {
+    margin: 0.5em 0;
+    margin: 1.7em;
+}
 /* /Purchase Plans Section */
 
 
