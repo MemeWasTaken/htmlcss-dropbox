@@ -247,10 +247,15 @@ input[type="radio"]:checked + label span.radio::before {
     border: 1px solid #E6E6E7;
     float: left;
     width: calc(100% / 3 - 4em / 3);
-    height: 40em;
+    /* height: 40em; */
     margin-top: 1.3em;
     margin-right: 2em;
     margin-bottom: 1em;
+    padding-bottom: 6em;
+}
+
+.plan.left.c-1 {
+    padding-bottom: 8.84em;
 }
 
 .plan.left.c-3{
@@ -270,13 +275,15 @@ h6 {
 .far.fa-building::before,
 .fab.fa-dropbox::before,
 .far.fa-folder::before,
-.fas.fa-pencil-alt::before {
+.fas.fa-pencil-alt::before,
+.fas.fa-user-plus::before,
+.far.fa-smile::before {
     margin-right: 0.3em;
     color: #4A4A4A;
 }
 
 .col-txt {
-    border: 1px solid rgba(0, 0, 255, 0.3);
+    /* border: 1px solid rgba(0, 0, 255, 0.3); */
     width: 85%;
     margin: 0 auto;
     margin-top: 2em;
@@ -313,15 +320,45 @@ h6 {
 
 .ico-left {
     width: 8%;
+    color: #0F6AFF;
+    font-weight:900;
 }
 
 .txt-right {
     width: 90%;
 }
 
-.button.col-b {
-    margin-left: 1.3em;
+.btn-center {
+    width: 100%;
+    margin: 0 auto;
 }
+
+.btn-col-txt {
+    padding: 0.4em 3.96em;
+}
+
+.or-buy-now {
+    margin-top: 2em;
+}
+
+.or-word {
+    padding-bottom: 2em;
+    border-bottom: 1px solid #DBDBDD;
+}
+
+.buy-now,
+.buy-now:hover,
+.buy-now:active,
+.buy-now:focus{
+    text-decoration:underline rgba(185, 212, 255, 0.8);
+    color: #166FFF;
+}
+
+.des-title {
+    margin-top: 4em;
+    font-weight: 800;
+}
+
 /* /Purchase Plans Section */
 
 
