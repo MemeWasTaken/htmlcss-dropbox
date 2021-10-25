@@ -173,13 +173,14 @@ body {
 .container-main {
     border: 1px solid chartreuse;
     width: 65%;
-    height: 2000px;
+    height: 3000px;
     margin: 0 auto;
 }
 
 /* Title & Radio Input Section */
 .payment-title {
 margin-top: 5em;
+font-size: 2.4em;
 }
 
 .container-radio label {
@@ -414,12 +415,21 @@ h6 {
     margin-top: 8em;
 }
 
+#ask-for-help {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
 .img-ask-help {
     width: 100%;
 }
 
+.ask-help.sx {
+    height: 100%;
+}
+
 .ask-help.dx {
-    padding: 2em 0 0 2em;
+    padding: 2em 0 5.2em 2em;
 }
 
 .find-partner-info {
@@ -443,7 +453,7 @@ h6 {
 }
 
 .btn-find-partner:hover {
-
+    
 }
 
 .title-ask-help {
@@ -451,6 +461,10 @@ h6 {
     font-weight: 700;
 }
 
+.more-operation {
+    margin-top: 2em;
+    font-size: 2.4em;
+}
 
 /*  */
 
