@@ -173,8 +173,9 @@ body {
 .container-main {
     border: 1px solid chartreuse;
     width: 65%;
-    height: 4500px;
+    /* height: 4500px; */
     margin: 0 auto;
+    margin-bottom: 2.5em;
 }
 
 /* Title & Radio Input Section */
