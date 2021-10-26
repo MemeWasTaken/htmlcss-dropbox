@@ -173,7 +173,7 @@ body {
 .container-main {
     border: 1px solid chartreuse;
     width: 65%;
-    height: 3000px;
+    height: 4500px;
     margin: 0 auto;
 }
 
@@ -245,13 +245,19 @@ input[type="radio"]:checked + label span.radio::before {
 
 /* Purchase Plans Section */
 .plan.left {
-    border: 1px solid #E6E6E7;
+    /* border: 1px solid slateblue; */
     float: left;
     width: calc(100% / 3 - 4em / 3);
     /* height: 40em; */
     margin-top: 1.3em;
     margin-right: 2em;
     margin-bottom: 1em;
+}
+
+.plan.left.c-1,
+.plan.left.c-2,
+.plan.left.c-3 {
+    border: 1px solid #E6E6E7;
     padding-bottom: 6em;
 }
 
@@ -453,7 +459,7 @@ h6 {
 }
 
 .btn-find-partner:hover {
-    
+    background-color: rgba(240, 242, 245, 0.8);
 }
 
 .title-ask-help {
@@ -466,6 +472,46 @@ h6 {
     font-size: 2.4em;
 }
 
+.top-img-card {
+    width: 100%;
+}
+
+.plan.left.card{
+    margin-right: 0;
+}
+
+.bottom-txt-p {
+    font-size: 0.9em;
+    padding-top: 1.4em;
+    font-weight: 400;
+}
+
+.card-bottom {
+    padding-top: 1.5em;
+}
+
+#more-op-dropbox {
+    margin-bottom: 6em;
+}
+
+.title-team {
+    margin-top: 2em;
+    font-size: 2.4em;
+    width: 68%;
+}
+
+.p-team {
+    margin-top: 1.5em;
+    font-size: 0.9em;
+    font-weight: 500;
+}
+
+.link-team,
+.link-team:hover,
+.link-team:active,
+.link-team:focus {
+    color: #0061ff;
+}
 /*  */
 
 
