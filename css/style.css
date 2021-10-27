@@ -657,6 +657,10 @@ h6 {
     font-weight: 400;
 }
 
+.answ:hover .qst {
+    border-bottom: 0;
+}
+
 .answ:hover .dda {
     transform: rotate(180deg);
     padding-left: 2em;
