@@ -354,15 +354,6 @@ h6 {
     width: 90%;
 }
 
-/* .btn-center {
-    width: 100%;
-    margin: 0 auto;
-}
-
-.btn-col-txt {
-    padding: 0.4em 3.96em;
-} */
-
 .or-buy-now {
     margin-top: 2em;
 }
@@ -484,7 +475,7 @@ h6 {
 .bottom-txt-p {
     font-size: 0.9em;
     padding-top: 1.4em;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 .card-bottom {
@@ -517,20 +508,17 @@ h6 {
 
 .outer-square {
     float: left;
-    /* height: 20em; */
-    /* border: 1px solid gray; */
 }
 
 .out-sq-1,
 .out-sq-3 {
     width: 27.143%;
-    /* border: 1px solid blue; */
 }
 
 .out-sq-2 {
     width: 45.7153%;
-    height: 27vw;
-    /* border: 1px solid black; */
+    height: 26.8vw;
+    background-color: #F5F5F5;
 }
 
 .inner-square {
@@ -550,7 +538,7 @@ h6 {
     transform: translate(-50%, -50%);
 }
 
-    /* Left */
+    /* Left Square*/
 .inner-square.left.top-left {background-color: #A2D39B;}
 
 .inner-square.left.top-right {background-color: #61082B;}
@@ -559,7 +547,26 @@ h6 {
 
 .inner-square.left.bot-right {background-color: #FF1C1C;}
 
-    /* Right */
+    /* Center Square*/
+.container-square {
+    width: 80%;
+    height: 26.8vw;
+    margin: 0 auto;
+    overflow: auto;
+}
+
+.designit-svg {
+    width: 25%;
+    margin-bottom: 2em;
+}
+
+.square-quote {
+    font-size: 0.9em;
+    font-weight: 500;
+    margin-bottom: 2.5em;
+}
+
+    /* Right Square*/
 .inner-square.right.top-left {background-color: #D5001F;}
 
 .inner-square.right.top-right {background-color: #B4D0E7;}
