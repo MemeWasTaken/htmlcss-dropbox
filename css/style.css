@@ -657,7 +657,9 @@ h6 {
     font-weight: 400;
 }
 
-.answ:hover .fas.fa.chevron-down {
+.answ:hover .dda {
     transform: rotate(180deg);
+    padding-left: 2em;
+    border-top: 0;
 }
 /* /Main Section */
