@@ -505,6 +505,7 @@ h6 {
     margin-top: 1.5em;
     font-size: 0.9em;
     font-weight: 500;
+    margin-bottom: 1em;
 }
 
 .link-team,
@@ -513,7 +514,60 @@ h6 {
 .link-team:focus {
     color: #0061ff;
 }
-/*  */
+
+.outer-square {
+    float: left;
+    /* height: 20em; */
+    /* border: 1px solid gray; */
+}
+
+.out-sq-1,
+.out-sq-3 {
+    width: 27.143%;
+    /* border: 1px solid blue; */
+}
+
+.out-sq-2 {
+    width: 45.7153%;
+    height: 27vw;
+    /* border: 1px solid black; */
+}
+
+.inner-square {
+    float: left;
+    width: 50%;
+    height: 13.4vw;
+    position: relative;
+}
+
+.inner-square:hover {border: 6px solid rgba(255,255,255,0.5);}
+
+.inner-square img {
+    width: 60%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+    /* Left */
+.inner-square.left.top-left {background-color: #A2D39B;}
+
+.inner-square.left.top-right {background-color: #61082B;}
+
+.inner-square.left.bot-left {background-color: #0093CE;}
+
+.inner-square.left.bot-right {background-color: #FF1C1C;}
+
+    /* Right */
+.inner-square.right.top-left {background-color: #D5001F;}
+
+.inner-square.right.top-right {background-color: #B4D0E7;}
+
+.inner-square.right.bot-left {background-color: #0D2481;}
+
+.inner-square.right.bot-right {background-color: #FFD830;}
+
 
 
 
