@@ -634,8 +634,13 @@ h6 {
 .question-float {
     float: left;
     padding: 1.7em 0;
+    font-weight: 700;
     border-top: 1px solid #DEDEDF;
     border-bottom: 1px solid #DEDEDF;
+}
+
+.answer {
+    display: none;
 }
 
 .question-float.qst {
@@ -646,8 +651,13 @@ h6 {
     width: 5%;
 }
 
+.answ:hover .answer {
+    padding-top: 2em;
+    display: inline-block;
+    font-weight: 400;
+}
 
-/* .question {
-
-} */
+.answ:hover .fas.fa.chevron-down {
+    transform: rotate(180deg);
+}
 /* /Main Section */
